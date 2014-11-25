@@ -1,0 +1,345 @@
+body {
+	background-color: #ffffff;
+	font-family: Georgia, serif;
+	line-height: 1.5;
+	font-size: 62.5%;
+}
+
+/* -------------------- type ------------------------- */
+
+a:link, a:visited, a:hover {
+}
+
+a:link, a:visited {
+	color: #463227;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #463227;
+	text-decoration: underline;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+h1 {
+	font-size: 3.5em;
+	font-weight: normal;
+	color: #b1b1b1;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0.8em 0;
+	font-weight: normal;
+	color: #b1b1b1;
+}
+
+p {
+	font-size: 1.5em;
+	margin: 1.2em 0;
+	color: gray;
+	font-family: Arial, sans-serif;
+}
+
+dl {
+	font-size: 1.5em;
+}
+
+li {
+	font-size: 1.5em;
+}
+
+#content li {
+	font-family: Arial, sans-serif;
+	margin: 8px 0;
+	color: gray;
+	padding-left: 23px;
+	background: transparent url(bullet.png) no-repeat left 5px;
+}
+
+#main ul {
+	margin-bottom: 2.2em;
+}
+
+
+span.reg {
+	position: relative;
+	top: -0.5em;
+	font-size: 50%;
+}
+
+
+/* -------------------- cross site ------------------------- */
+
+.center {
+	width: 895px;
+	margin: 0 auto;
+	padding: 0 20px 0 85px;
+}
+
+#header .center {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.clear-fix {
+	display: block;
+	clear: both;
+}
+
+p.arrow {
+	padding-left: 15px;
+	background-image: url(arrow.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 1.2em;
+}
+
+p.quote {
+	font-family: Georgia, serif;
+	font-size: 1.8em;
+	color: gray;
+	padding: 25px 0 5px 0;
+	background-image: url(quote-top.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 590px;
+	margin: 5px 0 10px 0;
+}
+
+.copyright {
+	font-size: 1.2em;
+	clear: both;
+	padding-top: 45px;
+}
+
+
+.social-link {
+	font-family: Georgia, serif;
+	font-size: 2em;
+	width: 272px;
+	float: left;
+	margin-right: 39px;
+}
+
+#associates {
+	float: right;
+	width: 272px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+#associates img {
+	margin-left: 0;
+}
+
+#content {
+	float: left;
+	width: 584px;
+}
+
+#sidebar {
+	float: right;
+	width: 274px;
+}
+
+#sidebar .link, #sidebar img.pic {
+	margin-bottom: 25px;
+}
+
+/* -------------------- header ------------------------- */
+
+
+#header, #footer {
+	width: 100%;
+	background-color: #f7f7f7;
+	float: left;
+	padding: 0 0 10px 0;
+}
+
+#header .cta {
+	text-align: right;
+	margin-bottom: 0;
+	font-family: Georgia, serif;
+}
+
+#header .cta a:link, #header .cta a:visited {
+	background-color: #463227;
+	padding: 5px 10px;
+	margin-left: 6px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #fff;
+}
+
+#header .cta a:hover {
+	text-decoration: none;
+	background-color: #dec9c0;
+}
+
+#header #logo {
+	float: left;
+	margin: 0px 0 5px 0;
+	display: block;
+}
+
+#header ul {
+	clear: both;
+	float: right;
+	position: relative;
+}
+
+#header li {
+	float: left;
+	margin: 0 10px;
+}
+
+#header li.last {
+	margin-right: 0;
+}
+
+#header li a {
+	padding: 10px 0px;
+	color: gray;
+}
+
+#header li.current a {
+	border-bottom: 5px solid #463227;
+	color: #463227;
+}
+
+#header li a:hover {
+	border-bottom: 5px solid #dfdede;
+	text-decoration: none;
+	color: #463227;
+}
+
+/* -------------------- homepage ------------------------- */
+
+#home-top, #home-links, #home-bottom, #main {
+	clear: both;
+	padding: 29px 0 0px 0;
+	float: left;
+	width: 100%;
+}
+
+#home-top h1 {
+	font-size: 5.5em;
+	color: #b1b1b1;
+	line-height: 1.2;
+	padding-top: 15px;
+}
+
+#home-top p {
+	width: 500px;
+}
+
+#home-top img {
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 0;
+}
+
+.link {
+	float: left;
+	border-top: 5px solid #463227;
+	width: 274px;
+}
+
+.link img {
+	float: left;
+}
+
+.link p {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	margin: 0;
+	float: right;
+	width: 160px;
+}
+
+.link p.arrow {
+	width: 145px;
+	float: right;
+	clear: right;
+	padding-left: 15px;
+}
+
+.link h2 {
+	margin: 5px 0 10px 0;
+}
+
+.links .margin {
+	margin-right: 36px;
+}
+
+#home-bottom .border {
+	width: 100%;
+	border-top: solid #dfdfd6 1px;
+	padding: 20px 0;
+}
+
+a#sign-up {
+	float: right;
+	width: 272px;
+	background-color: #463227;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #fff;
+	font-size: 2.5em;
+	line-height: 1.2;
+}
+
+a#sign-up span {
+	padding: 50px 20px;
+	display: block;
+}
+
+a#sign-up em {
+	color: #fff;
+}
+
+a#sign-up:hover {
+	text-decoration: none;
+	background-color: #dec9c0;
+}
+
+#content .testimonial {
+	padding: 25px 0 5px 0;
+	background-image: url(quote-top.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: 20px 0 10px 0;
+}
+
+#content .testimonial p {
+	margin: 0 0 15px 0;
+}
+
+
+#contacts p {
+	font-size: 2em;
+	margin: 0;
+	font-family: Georgia, serif;
+	padding: 0;
+	color: #b1b1b1
+}
+
+#contacts p strong {
+	color: gray;
+	font-weight: normal;
+}
+
+p.gallery a {
+	margin-right: 5px;
+}
