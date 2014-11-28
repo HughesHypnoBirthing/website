@@ -110,9 +110,6 @@ p.quote {
 	font-size: 1.8em;
 	color: gray;
 	padding: 25px 0 5px 0;
-	background-image: url(quote-top.png);
-	background-position: left top;
-	background-repeat: no-repeat;
 	width: 590px;
 	margin: 5px 0 10px 0;
 }
