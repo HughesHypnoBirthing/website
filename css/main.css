@@ -340,3 +340,7 @@ a#sign-up:hover {
 p.gallery a {
 	margin-right: 5px;
 }
+
+hr {
+	margin: 4em;
+}
