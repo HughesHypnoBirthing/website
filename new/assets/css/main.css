@@ -1284,7 +1284,7 @@ blockquote {
   font-style: italic; }
 
 p, ul, ol, dl, table {
-  margin-bottom: 2em; }
+  margin-bottom: 1em; }
 
 br.clear {
   clear: both; }
@@ -1335,6 +1335,11 @@ ul.default {
   list-style: disc;
   padding-left: 1em; }
   ul.default li {
+    padding-left: 0.5em; }
+ul.listcontent {
+  list-style: disc;
+  padding-left: 1em; }
+  ul.listcontent li {
     padding-left: 0.5em; }
 ul.icons {
   cursor: default; }
@@ -1443,10 +1448,6 @@ button,
   background-color: #463227;
   border: 0;
   cursor: pointer;
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("img/overlay.png");
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("img/overlay.png");
-  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("img/overlay.png");
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("img/overlay.png");
   -moz-transition: background-color 0.35s ease-in-out;
   -webkit-transition: background-color 0.35s ease-in-out;
   -ms-transition: background-color 0.35s ease-in-out;
@@ -1500,7 +1501,6 @@ button,
   width: 375px;
   height: 100%;
   color: #fff;
-  background: #f7f7f7 url("img/overlay.png");
   box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
   text-align: right; }
   #header .top {
@@ -1608,8 +1608,7 @@ button,
     overflow: hidden;
     padding: 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-    text-align: left;
-    background-image: url("img/overlay.png"); }
+    text-align: left; }
     #main > section header {
       text-align: center; }
     #main > section footer {
